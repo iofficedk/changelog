@@ -1,0 +1,22 @@
+{
+    "name": "iofficedk/changelog",
+    "type": "library",
+    "description": "git log parser for php",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Henrik Tholle",
+            "email": "henrik@ioffice.dk"
+        }
+    ],
+    "require": {
+        "php": ">7.0.0",
+        "symfony/process": "^5.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Io\\Changelog\\": "src/"
+        }
+    }
+}
