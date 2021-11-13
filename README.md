@@ -5,7 +5,13 @@ It extracts data from Git log and put nicely into a changelog.{branch}.md file i
 Satisfies most bosses.
 
 ```php
-$Changelog = \Io\Changelog\App\Controller\Changelog::get();
+$Changelog = \Io\Changelog\App::get()->create();
+```
+
+Or
+
+```php
+$Changelog = \Io\Changelog\App::get();
 $Changelog->create();
 ```
 # Options 
